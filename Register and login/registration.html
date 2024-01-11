@@ -1,0 +1,32 @@
+<html>
+
+<head>
+	<title>Register</title>
+	<link rel="stylesheet" href="css/register.css">
+	<script src="script/register.js"></script>
+</head>
+
+<body>
+	<div class="card">
+		<div class="card-header">
+			<span class="card-title">Register</span>
+		</div>
+		<div class="card-body">
+			<input type="text" name="" id="fn" placeholder="Enter First Name" onclick="return check(event)"><span
+				class="error" id="e1" style="display:none">Enter First Name</span><span class="leng" id="l1"
+				style="display:none">First Name Length Not Sufficient</span>
+			<input type="text" name="" id="ln" placeholder="Enter Last Name" onclick="return check(event)"><span
+				class="error" id="e2" style="display:none">Enter Last Name</span><span class="leng" id="l2"
+				style="display:none">Last Name Length Not Sufficient</span>
+			<input type="text" name="" id="user" placeholder="Enter User Name"><span class="error" id="e3"
+				style="display:none">Enter Username</span>
+			<input type="password" name="" id="pass" placeholder="Enter Password"><span class="error" id="e4"
+				style="display:none">Enter Password</span><span class="leng" id="l4" style="display:none">Password
+				Length less than 8</span>
+
+			<input type="button" value="Register" class="reg" onclick="fn()">
+		</div>
+	</div>
+</body>
+
+</html>
